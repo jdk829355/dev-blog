@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:dev_blog/view/main_page.dart';
 void main() {
   final Map<String, String> parameters = <String, String>{
-      'title': 'dev-jdk829355',
+      'title': 'DevBlog',
       'profileImage': 'images/lake.jpg',
+      'githubUrl': 'https://www.github.com/jdk829355',
   };
   runApp(MyApp(parameters: parameters));
 }

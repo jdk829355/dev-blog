@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 // title, profileImage 인자를 받는 TitleBar 위젯
 class TitleBar extends StatelessWidget {
-  const TitleBar({super.key, required this.title, required this.profileImage});
+  const TitleBar({super.key, required this.parameters});
 
-  final String title;
-  final String profileImage;
+  final Map<String, String> parameters;
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class TitleBar extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            title,
+            parameters['title'] ?? 'Dev Blog',
             style: const TextStyle(
               color: Color.fromARGB(255, 8, 9, 10),
               fontSize: 20,
@@ -41,17 +41,20 @@ class TitleBar extends StatelessWidget {
   }
 
   Widget _buildProfileImage() {
-    return Container(
-      width: 40,
-      height: 40,
-      clipBehavior: Clip.antiAlias,
-      decoration: ShapeDecoration(
-        image: DecorationImage(
-          image: AssetImage(profileImage),
-          fit: BoxFit.cover,
-        ),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+    return GestureDetector(
+      onTap: () => launchUrlString(parameters['githubUrl'] ?? 'https://www.github.com/jdk829355'),
+      child: Container(
+        width: 40,
+        height: 40,
+        clipBehavior: Clip.antiAlias,
+        decoration: ShapeDecoration(
+          image: DecorationImage(
+            image: AssetImage(parameters['profileImage'] ?? 'images/lake.jpg'),
+            fit: BoxFit.cover,
+          ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
         ),
       ),
     );
