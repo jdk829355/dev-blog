@@ -1,0 +1,90 @@
+[
+        {
+        "title": "Introduction to React Hooks",
+        "author": "John Doe",
+        "date": "2023-09-15",
+        "description": "React Hooks are functions that let you use state and other React features without writing a class. They allow you to manage state and side effects in functional components, making your code cleaner and more reusable.",
+        "content": "React Hooks는 클래스 없이도 상태와 기타 React 기능을 사용할 수 있게 해줍니다. 이를 통해 함수형 컴포넌트에서 상태와 부수 효과를 쉽게 관리할 수 있습니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Understanding JavaScript Closures",
+        "author": "Jane Doe",
+        "date": "2023-10-01",
+        "description": "JavaScript closures are a powerful feature that allows functions to have access to their outer scope even after the outer function has finished executing. This is particularly useful for data encapsulation and creating private variables.",
+        "content": "자바스크립트 클로저는 함수가 외부 스코프에 접근할 수 있게 해주는 강력한 기능입니다. 데이터 은닉과 프라이빗 변수를 만들 때 유용하게 사용됩니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "CSS Grid vs Flexbox: Which One to Use?",
+        "author": "Alice Smith",
+        "date": "2023-10-10",
+        "description": "CSS Grid and Flexbox are both powerful layout systems in CSS. While Flexbox is great for one-dimensional layouts, CSS Grid excels at two-dimensional layouts. Choosing between them depends on the specific layout requirements of your project.",
+        "content": "CSS Grid와 Flexbox는 각각 2차원, 1차원 레이아웃에 강점을 가진 CSS 레이아웃 시스템입니다. 프로젝트의 레이아웃 요구사항에 따라 적절히 선택해야 합니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Getting Started with TypeScript",
+        "author": "Bob Johnson",
+        "date": "2023-10-20",
+        "description": "TypeScript is a superset of JavaScript that adds static typing to the language. It helps catch errors early in the development process and improves code quality by providing better tooling and autocompletion features.",
+        "content": "TypeScript는 자바스크립트에 정적 타입을 추가한 언어입니다. 타입 시스템 덕분에 개발 초기에 오류를 잡고, 더 나은 개발 경험을 제공합니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Building RESTful APIs with Node.js",
+        "author": "Charlie Brown",
+        "date": "2023-10-25",
+        "description": "Node.js is a popular choice for building RESTful APIs due to its non-blocking I/O model and event-driven architecture. This allows developers to create scalable and efficient APIs that can handle a large number of requests.",
+        "content": "Node.js는 비동기 I/O와 이벤트 기반 구조로 대규모 요청을 효율적으로 처리할 수 있습니다. RESTful API 개발에 널리 사용됩니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Exploring the New Features in ES2023",
+        "author": "Diana Prince",
+        "date": "2023-10-30",
+        "description": "ES2023 introduces several new features to JavaScript, including improved regex features, new array methods, and enhanced error handling. These additions make JavaScript more powerful and easier to work with.",
+        "content": "ES2023은 자바스크립트에 새로운 배열 메서드와 향상된 에러 처리 기능 등을 추가했습니다. 최신 기능을 활용하면 더 효율적인 개발이 가능합니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "A Beginner's Guide to Web Accessibility",
+        "author": "Eve Adams",
+        "date": "2023-11-05",
+        "description": "Web accessibility is about making websites usable for everyone, including people with disabilities. This guide covers the basics of web accessibility, including semantic HTML, ARIA roles, and best practices for creating accessible content.",
+        "content": "웹 접근성은 장애를 가진 사람을 포함한 모두가 웹사이트를 사용할 수 있도록 하는 것입니다. 시맨틱 HTML과 ARIA 역할 등 기본 원칙을 알아봅니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "The Future of Web Development: Trends to Watch",
+        "author": "Frank Castle",
+        "date": "2023-11-10",
+        "description": "Web development is constantly evolving. Key trends to watch include the rise of serverless architecture, the increasing use of AI in web applications, and the growing importance of performance optimization and user experience.",
+        "content": "웹 개발은 서버리스, AI 활용, 성능 최적화 등 다양한 트렌드와 함께 빠르게 변화하고 있습니다. 최신 동향을 주목해야 합니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Mastering Asynchronous JavaScript",
+        "author": "Grace Hopper",
+        "date": "2023-11-15",
+        "description": "Asynchronous programming is a crucial aspect of modern JavaScript development. This post explores various techniques for handling asynchronous operations, including callbacks, promises, and async/await syntax.",
+        "content": "비동기 프로그래밍은 현대 자바스크립트 개발에서 매우 중요합니다. 콜백, 프로미스, async/await 등 다양한 비동기 처리 방법을 배워봅니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Introduction to Progressive Web Apps (PWAs)",
+        "author": "Hank Pym",
+        "date": "2023-11-20",
+        "description": "Progressive Web Apps combine the best of web and mobile apps. They are reliable, fast, and engaging, providing a native app-like experience on the web. This post covers the key features and benefits of PWAs.",
+        "content": "PWA는 웹과 모바일 앱의 장점을 결합한 기술로, 빠르고 신뢰성 있는 사용자 경험을 제공합니다. 주요 특징과 장점을 알아봅니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    },
+    {
+        "title": "Debugging JavaScript: Tips and Tools",
+        "author": "Ivy League",
+        "date": "2023-11-25",
+        "description": "Debugging is an essential skill for any developer. This post provides tips and tools for effectively debugging JavaScript code, including using browser developer tools, logging, and debugging libraries.",
+        "content": "디버깅은 개발자에게 필수적인 역량입니다. 브라우저 개발자 도구, 로깅, 디버깅 라이브러리 등 다양한 디버깅 방법을 소개합니다.",
+        "imageUrl": "https://png.pngtree.com/template/20220421/ourmid/pngtree-online-test-word-concepts-banner-image_1200565.jpg"
+    }
+]
